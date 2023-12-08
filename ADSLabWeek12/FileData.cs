@@ -102,7 +102,7 @@ public class FileData
     {
         using(StreamWriter sw = new StreamWriter(filename))
         {
-            sw.Write("iter,solution");
+            sw.Write("GENERATION,CHROMOSOME");
             sw.WriteLine();
             for(int i=0; i<solutions.Count; i++)
             {
