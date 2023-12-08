@@ -91,7 +91,7 @@ public class Individual
         chromosome = new List<int>();
         for (int i=0; i<dataset.Count; i++)
         {
-            int gene = r.Next(0,2);
+            int gene = r.Next(1,9999)%2;
             chromosome.Add(gene);
         }
         calCurrentFit();
