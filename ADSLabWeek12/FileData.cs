@@ -82,7 +82,7 @@ public class FileData
     {
         using (StreamWriter sw = new StreamWriter(filename))
         {
-            sw.Write("iter,current_fitness,new_fitness");
+            sw.Write("GENERATION,P1,P2,C1,C2,MUTANT");
             sw.WriteLine();
             for (int i=0; i<results.GetLength(0); i++)
             {
@@ -113,6 +113,28 @@ public class FileData
                     sw.Write(" ");
                 }
                 sw.WriteLine();
+            }
+        }
+    }
+
+    public static void writePopulation(Population pop, string filename)
+    {
+        using(StreamWriter sw = new StreamWriter(filename))
+        {
+            sw.Write("CHROMOSOME,FITNESS");
+            sw.WriteLine();
+
+            for (int i=0; i<pop.pop.Count; i++) //go through all candidates in the population
+            {
+                for (int j=0; j<pop.pop[i].chromosome.Count; j++) //each candidate has a chromosome
+                {
+                    sw.Write(pop.pop[i].chromosome[j]); //write each gene to file
+                    if (j<pop.pop[i].chromosome.Count-1) //this is to have a space between genes only
+                        sw.Write(" ");
+                }
+
+                sw.Write(","+pop.pop[i].fitness); //write the candidate fitness value
+                sw.WriteLine(); //go to the next candidate
             }
         }
     }
