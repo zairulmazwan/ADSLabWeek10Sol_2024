@@ -41,3 +41,5 @@ List<double> data = FileData.readData("data.csv"); //Read the dataset
 
 GeneticAlgo ga = new GeneticAlgo();
 ga.runGA(10, data);
+
+//©ZairulMazwan©

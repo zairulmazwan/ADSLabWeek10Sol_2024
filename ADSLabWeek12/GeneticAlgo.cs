@@ -35,9 +35,9 @@ public class GeneticAlgo
 
             //Produce 2 children using the crossOver method. The method will return a list of Individuals
             List<Individual> CO_candidates = myPop.crossOver(0.5);
-            Console.WriteLine("==Cross Over Candidates==");
-            CO_candidates[0].printIndividual();
-            CO_candidates[1].printIndividual();
+            //Console.WriteLine("==Cross Over Candidates==");
+            //CO_candidates[0].printIndividual();
+            //CO_candidates[1].printIndividual();
 
             //Produce a mutant. Create an Individual from the best parent, the mutate their genes. Use copyIndividual and mutation for this operation.
             Individual mutant = myPop.getParents()[0].copyIndividual();
@@ -58,7 +58,7 @@ public class GeneticAlgo
 
             //Get the best individual from the population
             Individual best = myPop.getBestIndividual();
-            Console.WriteLine("Crossover Prob: "+crossOverProb);
+            //Console.WriteLine("Crossover Prob: "+crossOverProb);
 
             //Reduce the crossover probability
             crossOverProb -= coRate;
@@ -257,5 +257,4 @@ public class Population
 
 }
 
-
-// List<Order> SortedList = objListOrder.OrderBy(o=>o.OrderDate).ToList();
+//©ZairulMazwan©
