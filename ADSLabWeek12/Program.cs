@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-List<double> data = FileData.readData("data.csv"); //Read the dataset
+List<double> data = FileData.readData("dataset.csv"); //Read the dataset
 // Individual id = new Individual(data); //An example to produce an individual
 // id.printIndividual();
 
@@ -40,6 +40,6 @@ List<double> data = FileData.readData("data.csv"); //Read the dataset
 
 
 GeneticAlgo ga = new GeneticAlgo();
-ga.runGA(10, data);
+ga.runGA(20, data);
 
 //©ZairulMazwan©

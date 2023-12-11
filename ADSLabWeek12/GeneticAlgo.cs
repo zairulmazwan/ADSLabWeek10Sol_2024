@@ -5,7 +5,7 @@ public class GeneticAlgo
     public void runGA(int generations, List<double> data)
     {
         //Create initial population
-        Population myPop = new Population(5, data);
+        Population myPop = new Population(20, data);
 
         //Sort the population based on their fitness values
         myPop.sortPopulation();
