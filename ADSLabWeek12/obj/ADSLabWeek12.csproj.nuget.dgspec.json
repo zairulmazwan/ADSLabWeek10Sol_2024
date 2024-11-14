@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zairulmazwan/Dotnet/ADSLabWeek12_Sol/ADSLabWeek12/ADSLabWeek12.csproj": {}
+    "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/ADSLabWeek12.csproj": {}
   },
   "projects": {
-    "/Users/zairulmazwan/Dotnet/ADSLabWeek12_Sol/ADSLabWeek12/ADSLabWeek12.csproj": {
+    "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/ADSLabWeek12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zairulmazwan/Dotnet/ADSLabWeek12_Sol/ADSLabWeek12/ADSLabWeek12.csproj",
+        "projectUniqueName": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/ADSLabWeek12.csproj",
         "projectName": "ADSLabWeek12",
-        "projectPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek12_Sol/ADSLabWeek12/ADSLabWeek12.csproj",
+        "projectPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/ADSLabWeek12.csproj",
         "packagesPath": "/Users/zairulmazwan/.nuget/packages/",
-        "outputPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek12_Sol/ADSLabWeek12/obj/",
+        "outputPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zairulmazwan/.nuget/NuGet/NuGet.Config"
@@ -49,12 +49,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
