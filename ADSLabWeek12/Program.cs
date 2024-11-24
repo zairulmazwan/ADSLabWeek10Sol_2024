@@ -40,6 +40,6 @@ List<double> data = FileData.readData("dataset.csv"); //Read the dataset
 
 
 GeneticAlgo ga = new GeneticAlgo();
-ga.runGA(20, data);
+ga.runGA(30, data);
 
 //©ZairulMazwan©

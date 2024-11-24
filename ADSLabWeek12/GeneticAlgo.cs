@@ -69,8 +69,7 @@ public class GeneticAlgo
             // best.printIndividual();
         }
         // Console.WriteLine("==Population All Generations==");
-        // myPop.printPopulation();
-
+        Console.WriteLine(myPop.getParents()[0].fitness);
         //Write results to csv files: writeFitnessResults, writeSolutions, writePopulation
         FileData.writeFitnessResults(results,"results.csv");
         FileData.writeSolutions(solutions,"solutions.csv");

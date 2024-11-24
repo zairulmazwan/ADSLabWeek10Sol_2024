@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/ADSLabWeek12.csproj": {}
+    "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10Sol_2024/ADSLabWeek12/ADSLabWeek12.csproj": {}
   },
   "projects": {
-    "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/ADSLabWeek12.csproj": {
+    "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10Sol_2024/ADSLabWeek12/ADSLabWeek12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/ADSLabWeek12.csproj",
+        "projectUniqueName": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10Sol_2024/ADSLabWeek12/ADSLabWeek12.csproj",
         "projectName": "ADSLabWeek12",
-        "projectPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/ADSLabWeek12.csproj",
+        "projectPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10Sol_2024/ADSLabWeek12/ADSLabWeek12.csproj",
         "packagesPath": "/Users/zairulmazwan/.nuget/packages/",
-        "outputPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10_Sol/ADSLabWeek12/obj/",
+        "outputPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek10Sol_2024/ADSLabWeek10Sol_2024/ADSLabWeek12/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zairulmazwan/.nuget/NuGet/NuGet.Config"
