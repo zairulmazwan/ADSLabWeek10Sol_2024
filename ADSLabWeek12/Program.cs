@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-List<double> data = FileData.readData("dataset.csv"); //Read the dataset
+List<double> data = ReadWriteFile.readData("dataset.csv"); //Read the dataset
 // Individual id = new Individual(data); //An example to produce an individual
 // id.printIndividual();
 

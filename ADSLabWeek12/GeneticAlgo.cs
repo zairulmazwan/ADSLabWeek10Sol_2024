@@ -71,9 +71,9 @@ public class GeneticAlgo
         // Console.WriteLine("==Population All Generations==");
         Console.WriteLine(myPop.getParents()[0].fitness);
         //Write results to csv files: writeFitnessResults, writeSolutions, writePopulation
-        FileData.writeFitnessResults(results,"results.csv");
-        FileData.writeSolutions(solutions,"solutions.csv");
-        FileData.writePopulation(myPop,"Population.csv");
+        ReadWriteFile.writeFitnessResults(results,"results.csv");
+        ReadWriteFile.writeSolutions(solutions,"solutions.csv");
+        ReadWriteFile.writePopulation(myPop,"Population.csv");
 
     }
 }

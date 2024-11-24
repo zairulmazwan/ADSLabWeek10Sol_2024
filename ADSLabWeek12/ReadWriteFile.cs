@@ -3,7 +3,7 @@ using System.Net.WebSockets;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 
-public class FileData
+public class ReadWriteFile
 {
 
     public static List<int> genData(int n)
